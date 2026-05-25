@@ -164,7 +164,7 @@ Planned upgrades:
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ---
@@ -172,7 +172,7 @@ pip install -r requirements.txt
 ## Run Project
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 ---
