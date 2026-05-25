@@ -111,3 +111,72 @@ Feature Scaling
 SGDClassifier Training
         ↓
 Evaluation Metrics
+```
+
+---
+
+## Training & Evaluation
+
+The model was trained using an SGDClassifier with log-loss optimization.
+
+Evaluation metrics include:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+
+### Model Performance
+
+- Accuracy: ~79%
+- Precision: ~0.83
+- Recall: ~0.68
+- F1 Score: ~0.75
+
+---
+
+## Training Screenshot
+
+![Training Output](image.png)
+
+---
+
+## Key Learnings
+
+- Classical NLP techniques are still highly effective.
+- Character n-grams significantly improve lexical similarity detection.
+- Feature scaling impacts optimization convergence.
+- Handcrafted features can perform surprisingly well without transformers or embeddings.
+
+---
+
+## Future Improvements
+
+Planned upgrades:
+- Sentence Embeddings
+- SBERT / Sentence Transformers
+- FAISS Vector Search
+- Hybrid Lexical + Semantic Retrieval
+- Hard Negative Mining
+
+---
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Run Project
+
+```bash
+python main.py
+```
+
+---
+
+## Author
+
+Zeel Parmar
